@@ -1,14 +1,56 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function userinfo(){
     inquirer
-    .prompt({
+    .prompt([
+    {
         type: 'input',
       message: 'Name your Readme',
-      name: 'Readmename',
-    })
+      name: 'title'
+    },
+    {
+      type:'input',
+      message:'project description',
+      name:'description'
+    }])
     .then(answers =>{
-        fs.appendFile('READMEuser.md', `${answers.Readmename}`, (err) =>
+        const Readme= console.log("help")
+
+          
+
+                
+                
+
+
+
+
+
+
+        
+
+        fs.appendFileSync('newREADME.md', `${Readme}`, (err) =>
        
         err ? console.error(err) : console.log('Commit logged!')
       );
@@ -16,6 +58,8 @@ function userinfo(){
     
 
 };
+
+
     
 
 userinfo();
