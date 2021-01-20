@@ -35,5 +35,5 @@
 
 ## screenshots
 
-![GitHub Logo](screenshots\indexscreenshot.png)
+![](\screenshots\indexscreenshot.png)
 
