@@ -35,5 +35,5 @@
 
 ## screenshots
 
-![](\screenshots\indexscreenshot.png)
+![](https://github.com/TylerWilliams97/READ.ME-Generator/blob/main/screenshots/indexscreenshot.png)
 
